@@ -12,7 +12,7 @@ The project consist of deploying a 5G network using Open5gs and Ueransim/srsRAN-
 ## Configuration of the enviroment
 > My configuration was inside a VM
 ### VM Details
-* OS: Ubuntu 22.04.4 LTS (ubuntu-22.04.4-desktop-amd64.iso)
+* OS: Ubuntu 20.04.6 LTS (ubuntu-20.04.6-desktop-amd64.iso)
 * HyperVisor: Proxmox
 > Numbers of Cores, RAM and Disk is just a reference, should work also with 4 Cores, 8 GB RAM and 20 GB Disk
 
@@ -23,13 +23,13 @@ The project consist of deploying a 5G network using Open5gs and Ueransim/srsRAN-
 | Type | Host |
 | Socket | 1 |
 | Cores  | 20 |
-| RAM    | 20 GB |
+| RAM    | 16 GB |
 | DISK   | 60 GB |
 
 ### Installation of ComNetsEmu
 First you need to install some dependency
 ```
-sudo apt install git vagrant virtualbox
+sudo apt update && sudo apt upgrade && sudo apt install git vagrant virtualbox
 ```
 Now clone , patch the Vagrantfile and enter comnetsemu
 ```
