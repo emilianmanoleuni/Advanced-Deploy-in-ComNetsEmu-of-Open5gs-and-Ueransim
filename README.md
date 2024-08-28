@@ -3,7 +3,7 @@ The project consist of deploying a 5G network using Open5gs and Ueransim/srsRAN-
 
 ## Configuration of the enviroment
 ### VM Details
-* OS: Ubuntu 22.04.4 LTS
+* OS: Ubuntu 22.04.4 LTS (ubuntu-22.04.4-desktop-amd64.iso)
   
 | Hardware | Description |
 | --- | --- |
