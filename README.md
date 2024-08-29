@@ -1,6 +1,10 @@
 # Advanced-Deploy-in-ComNetsEmu-of-Open5gs-and-Ueransim-or-srsRAN-5Gs
 The project consist of deploying a 5G network using Open5gs and Ueransim/srsRAN-5Gs inside ComNetsEmu, where each component is a docker.
 
+> [!WARNING]
+> Ueransim will not work in this configuration because it's not up to date as the Open5Gs configuration. The UE will try to connect but it will be rejected because invalid configuration.
+
+> More explanation at Ueransim Problem
 ## Tools
 * Open5gs v2.7.1 Docker by Gradiant
 * Open5gs-WebUI v2.7.1 Docker by Gradiant
@@ -66,6 +70,7 @@ vagrant ssh comnetsemu
 cd comnetsemu
 cd app
 git clone https://github.com/emilianmanoleuni/Advanced-Deploy-in-ComNetsEmu-of-Open5gs-and-Ueransim-or-srsRAN-5Gs.git
+sudo pip install python-dotenv
 ```
 ### Installation of Docker Images
 > If you get problems with docker like "permission denied check FAQ at the bottom"
@@ -73,8 +78,30 @@ git clone https://github.com/emilianmanoleuni/Advanced-Deploy-in-ComNetsEmu-of-O
 cd utilities
 ./pullDockerImages.sh
 ```
-## Try the tool
+If you have problems using the official docker images you could also build yourself.
+In my case I wasn't able to use srsRAN official images because my CPUs don't have AVX-2 flag.
+
+![errorsrsran](https://github.com/user-attachments/assets/ac3809f2-8213-4fe9-8b89-24b7ccb3d6b9)
+
+Dockerfile is modified to not use AVX-2.
+
+How to build images:
 ```
 cd utilities
+cd build
+./buildSrsRAN.sh        # For srsRAN
+./buildOpen5gs.sh       # For Open5gs
+./buildOpen5gsWebUI.sh  # For Open5gs WebUI
+./buildUeransim.sh      # For Ueransim
+```
+## Try the tool
+```
 sudo python3 basic_topology.py
 ```
+## Ueransim Problem
+## References
+* [ComNetsEmu](https://git.comnets.net/public-repo/comnetsemu)
+* [Open5Gs](https://open5gs.org/open5gs/docs/)
+* [Gradiant](https://github.com/Gradiant/5g-images)
+* [Ueransim](https://github.com/aligungr/UERANSIM)
+* [srsRan](https://github.com/srsran/srsRAN_Project)
