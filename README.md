@@ -1,15 +1,10 @@
-# Advanced-Deploy-in-ComNetsEmu-of-Open5gs-and-Ueransim-or-srsRAN-5Gs
-The project consist of deploying a 5G network using Open5gs and Ueransim/srsRAN-5Gs inside ComNetsEmu, where each component is a docker.
+# Advanced-Deploy-in-ComNetsEmu-of-Open5gs-and-Ueransim
+The project consist of deploying a 5G network using Open5gs and Ueransim inside ComNetsEmu, where each component is a docker, talking to the others using a network with links that have bandwidth and delay.
 
-> [!WARNING]
-> Ueransim will not work in this configuration because it's not up to date as the Open5Gs configuration. The UE will try to connect but it will be rejected because invalid configuration.
-
-> More explanation at Ueransim Problem
 ## Tools
 * Open5gs v2.7.1 Docker by Gradiant
 * Open5gs-WebUI v2.7.1 Docker by Gradiant
 * Ueransim v3.2.6 Docker by Gradiant
-* srsRAN Docker by Gradiant
 * MongoDB v7.0.1 Docker Official 
 > It is provided a script to pull all the correct docker images
 
@@ -41,24 +36,24 @@ cd ~
 git clone https://git.comnets.net/public-repo/comnetsemu.git
 cd comnetsemu
 ```
-Now you need to modify the Vagrantfile:
-#### **OPTIONAL**
-* At line 32 you can modify the number of CPUS
-```
- CPUS = 2
-```
-> I use CPUS = 4 just to be sure
-* At line 36 you can modify the number of CPUS
-```
- RAM = 4096
-```
-#### **TO DO IN ORDER TO HAVE ACCESS TO THE WEBUI**
-> Do it now to avoid 'vagrant reload'
-
-Add at line 204:
-```
- comnetsemu.vm.network "forwarded_port", guest: 9999, host: 9999
-```
+You need to modify the Vagrantfile:
+ * #### **OPTIONAL**
+  * At line 32 you can modify the number of CPUS
+   ```
+    CPUS = 2
+   ```
+   > I use CPUS = 4 just to be sure
+   * At line 36 you can modify the number of CPUS
+   ```
+    RAM = 4096
+   ```
+ * #### **TO DO IN ORDER TO HAVE ACCESS TO THE WEBUI**
+ > Do it now to avoid 'vagrant reload'
+  
+  Add at line 204:
+  ```
+   comnetsemu.vm.network "forwarded_port", guest: 9999, host: 9999
+  ```
 Now be patient while
 > Could take 15/20 min
 ```
@@ -78,18 +73,11 @@ sudo pip install python-dotenv
 cd utilities
 ./pullDockerImages.sh
 ```
-If you have problems using the official docker images you could also build yourself.
-In my case I wasn't able to use srsRAN official images because my CPUs don't have AVX-2 flag.
-
-![errorsrsran](https://github.com/user-attachments/assets/ac3809f2-8213-4fe9-8b89-24b7ccb3d6b9)
-
-Dockerfile is modified to not use AVX-2.
 
 How to build images:
 ```
 cd utilities
 cd build
-./buildSrsRAN.sh        # For srsRAN
 ./buildOpen5gs.sh       # For Open5gs
 ./buildOpen5gsWebUI.sh  # For Open5gs WebUI
 ./buildUeransim.sh      # For Ueransim
@@ -104,4 +92,3 @@ sudo python3 basic_topology.py
 * [Open5Gs](https://open5gs.org/open5gs/docs/)
 * [Gradiant](https://github.com/Gradiant/5g-images)
 * [Ueransim](https://github.com/aligungr/UERANSIM)
-* [srsRan](https://github.com/srsran/srsRAN_Project)
