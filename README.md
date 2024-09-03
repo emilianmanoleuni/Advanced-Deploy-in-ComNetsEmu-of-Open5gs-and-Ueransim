@@ -73,7 +73,7 @@ sudo pip install python-dotenv
 cd utilities
 ./pullDockerImages.sh
 ```
-
+> Open5gs WebUI images is patched in order to work in this context
 How to build images:
 ```
 cd utilities
