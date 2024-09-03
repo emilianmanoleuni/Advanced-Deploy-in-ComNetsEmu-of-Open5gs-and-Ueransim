@@ -70,17 +70,15 @@ sudo pip install python-dotenv
 ### Installation of Docker Images
 > If you get problems with docker like "permission denied check FAQ at the bottom"
 ```
-cd utilities
+cd build
 ./pullDockerImages.sh
 ```
-> Open5gs WebUI images is patched in order to work in this context
-How to build images:
+
+Open5gs WebUI image need to be patched:
 ```
-cd utilities
+cd open5gs_webui
 cd build
-./buildOpen5gs.sh       # For Open5gs
-./buildOpen5gsWebUI.sh  # For Open5gs WebUI
-./buildUeransim.sh      # For Ueransim
+./build.sh
 ```
 ## Try the tool
 ```
