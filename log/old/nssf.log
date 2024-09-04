@@ -1,0 +1,852 @@
+
+Open5GS daemon v2.4.4
+
+08/12 11:40:13.172: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/12 11:40:13.173: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/12 11:40:13.207: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/12 11:40:13.316: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/12 11:40:13.353: [nssf] INFO: [a323319c-589f-41ef-851b-d9c29a932904] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 14:28:28.358: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 14:28:28.358: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 14:28:28.381: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 14:28:28.388: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 14:28:28.394: [nssf] INFO: [4ec0b3e0-5980-41ef-a92b-0b66eb52a2d9] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/13 14:31:49.191: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/13 14:32:44.421: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 14:32:44.421: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 14:32:44.422: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 14:32:44.426: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 14:32:44.434: [nssf] INFO: [e75f0aca-5980-41ef-88b1-f5307605fd11] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 14:57:14.590: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 14:57:14.591: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 14:57:14.597: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 14:57:14.634: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 14:57:14.671: [nssf] INFO: [53a9e38c-5984-41ef-809b-6d197564ef83] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 15:01:29.332: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:01:29.335: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:01:29.339: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:01:29.375: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 15:01:29.383: [nssf] INFO: [eb806780-5984-41ef-b4c9-49093655a1e9] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 15:03:46.218: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:03:46.221: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:03:46.227: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:03:46.236: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 15:03:46.246: [nssf] INFO: [3d172854-5985-41ef-8daf-ddfeacff449c] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 15:05:49.638: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:05:49.647: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:05:49.667: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:05:49.682: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 15:05:49.687: [nssf] INFO: [86ab22e0-5985-41ef-ae46-9b6731485615] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 15:06:47.406: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:06:47.407: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:06:47.408: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:06:47.413: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 15:06:47.472: [nssf] INFO: [a915dc76-5985-41ef-a6c8-317115edc9e6] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 15:09:52.726: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:09:52.730: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:09:52.745: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:09:52.752: [nssf] INFO: [178de82e-5986-41ef-8d99-c75771f0ac71] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/13 15:09:52.753: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+Open5GS daemon v2.4.4
+
+08/13 15:15:11.701: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:15:11.701: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:15:11.703: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:15:11.704: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 15:15:11.722: [nssf] INFO: [d5ab26fa-5986-41ef-9405-f90fc4468bfb] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 15:37:22.029: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:37:22.039: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:37:22.043: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:37:22.049: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 15:37:22.062: [nssf] INFO: [ee9cd07a-5989-41ef-9987-7d7604403bc3] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 15:47:01.803: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:47:01.804: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:47:01.806: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:47:01.807: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 15:47:01.827: [nssf] INFO: [482dd94e-598b-41ef-9134-75b9b56f4a69] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 15:59:07.200: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 15:59:07.200: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 15:59:07.214: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 15:59:07.233: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 15:59:07.245: [nssf] INFO: [f88e4868-598c-41ef-be5c-6f166889d83d] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/13 16:04:15.675: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/13 16:04:15.685: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/13 16:04:15.686: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/13 16:04:15.705: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/13 16:04:15.722: [nssf] INFO: [b06b71e0-598d-41ef-ad1d-472cd1270067] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 08:25:04.820: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 08:25:04.821: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 08:25:04.854: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 08:25:04.875: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 08:25:04.914: [nssf] INFO: [b5408410-5a16-41ef-87b8-5352c61b6cec] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 08:58:56.841: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 08:58:56.841: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 08:58:56.890: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 08:58:56.957: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 08:58:57.057: [nssf] INFO: [70701620-5a1b-41ef-9202-7faed9b55d01] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 09:01:18.516: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 09:01:18.516: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 09:01:18.517: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 09:01:18.526: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 09:01:18.532: [nssf] INFO: [c4dc7c8a-5a1b-41ef-b267-03dcc2972e2e] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 09:02:40.646: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 09:02:40.647: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 09:02:40.655: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 09:02:40.655: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 09:02:40.669: [nssf] INFO: [f5d198f2-5a1b-41ef-856b-1b2b95df0395] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 09:24:12.564: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 09:24:12.675: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 09:24:12.747: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 09:24:12.762: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 09:24:12.860: [nssf] INFO: [f7ed24f0-5a1e-41ef-aac8-abc91d70b11a] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/14 09:27:31.383: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/14 09:54:48.701: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 09:54:48.701: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 09:54:48.724: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 09:54:48.838: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 09:54:49.042: [nssf] INFO: [3e4ac548-5a23-41ef-a8ba-33da552c4bae] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 14:14:37.418: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:14:37.418: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:14:37.426: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:14:37.493: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:14:37.525: [nssf] INFO: [89e1d428-5a47-41ef-b845-c56dd2e9d3e0] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 14:19:23.774: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:19:23.778: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:19:23.780: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:19:23.784: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:19:23.822: [nssf] INFO: [34906f42-5a48-41ef-963d-99b39ef014e6] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/14 14:20:34.722: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/14 14:22:41.592: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:22:41.594: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:22:41.596: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:22:41.621: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:22:41.634: [nssf] INFO: [aa78c92a-5a48-41ef-9731-8767ec211ec3] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/14 14:24:23.128: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/14 14:27:14.688: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:27:14.689: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:27:14.694: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:27:14.695: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:27:14.707: [nssf] INFO: [4d400f4c-5a49-41ef-827d-91f11b351ce6] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 14:36:02.282: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:36:02.282: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:36:02.299: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:36:02.302: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:36:02.426: [nssf] INFO: [87ba5d48-5a4a-41ef-90d2-bd81ca80f699] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 14:40:34.625: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:40:34.626: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:40:34.633: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:40:34.635: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:40:34.642: [nssf] INFO: [2a0d440c-5a4b-41ef-8157-53cfbd2c2231] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 14:43:02.079: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:43:02.079: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:43:02.080: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:43:02.085: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:43:02.108: [nssf] INFO: [81efe706-5a4b-41ef-acf6-7f05b39a0b8e] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 14:44:34.103: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:44:34.103: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:44:34.104: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:44:34.143: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:44:34.195: [nssf] INFO: [b8c9a0c8-5a4b-41ef-acb4-53036f289416] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 14:45:34.153: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:45:34.154: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:45:34.156: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:45:34.160: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:45:34.165: [nssf] INFO: [dc94c762-5a4b-41ef-b058-296b7b2028ec] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/14 14:48:14.682: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:48:14.683: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:48:14.685: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:48:14.697: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:48:14.743: [nssf] INFO: [3c439030-5a4c-41ef-9802-1fbac6795255] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/14 14:50:30.447: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/14 14:51:20.748: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:51:20.748: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:51:20.751: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:51:20.771: [nssf] INFO: [ab2b0186-5a4c-41ef-b9ba-bf12c1f3a807] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/14 14:51:20.772: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:54:58.687: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/14 14:55:23.761: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/14 14:55:23.761: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/14 14:55:23.786: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/14 14:55:23.805: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/14 14:55:23.810: [nssf] INFO: [3c06ab06-5a4d-41ef-9635-cd0f39fee137] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:14:20.363: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:14:20.383: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:14:20.395: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:14:20.421: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:14:20.446: [nssf] INFO: [e69b2c24-5aff-41ef-92cb-29385ada63d5] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:16:51.637: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:16:51.638: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:16:51.639: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:16:51.665: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:16:51.679: [nssf] INFO: [40c286ac-5b00-41ef-b694-bd7afbee09c5] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/15 12:17:12.062: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/15 12:17:40.882: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:17:40.888: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:17:40.900: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:17:40.905: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:17:40.914: [nssf] INFO: [5e1f2af2-5b00-41ef-938d-6decca0a4c74] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:23:09.607: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:23:09.607: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:23:09.610: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:23:09.629: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:23:09.640: [nssf] INFO: [220c2532-5b01-41ef-99ca-75729a2ec6e5] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:31:00.095: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:31:00.098: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:31:00.104: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:31:00.120: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:31:00.123: [nssf] INFO: [3a7b734c-5b02-41ef-b628-435bc073421a] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:33:15.293: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:33:15.293: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:33:15.302: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:33:15.314: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:33:15.331: [nssf] INFO: [8b117e32-5b02-41ef-ad83-0fdebce7ec7e] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:35:38.002: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:35:38.010: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:35:38.014: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:35:38.019: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:35:38.067: [nssf] INFO: [e0219f2e-5b02-41ef-b1a3-09d661a87ede] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:37:24.927: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:37:24.929: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:37:24.933: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:37:25.003: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:37:25.024: [nssf] INFO: [1fdc14be-5b03-41ef-b648-b367f37242ac] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:38:42.119: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:38:42.120: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:38:42.142: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:38:42.167: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:38:42.225: [nssf] INFO: [4dde6718-5b03-41ef-a575-7945fc3dc38b] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/15 12:40:53.390: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/15 12:41:08.290: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:41:08.290: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:41:08.293: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:41:08.296: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:41:08.300: [nssf] INFO: [a4fe38b6-5b03-41ef-bcc9-bbe974f8d50c] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/15 12:45:35.496: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/15 12:46:53.569: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:46:53.570: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:46:53.573: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:46:53.581: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 12:46:53.598: [nssf] INFO: [72cb92b6-5b04-41ef-a459-4b159ca078a3] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 12:56:29.936: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 12:56:29.937: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 12:56:29.938: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 12:56:29.959: [nssf] INFO: [ca5633e6-5b05-41ef-a749-fb357d4021e4] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/15 12:56:29.981: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+Open5GS daemon v2.4.4
+
+08/15 13:03:00.699: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 13:03:00.700: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 13:03:00.703: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 13:03:00.705: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 13:03:00.712: [nssf] INFO: [b3402710-5b06-41ef-8595-63510208f18a] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/15 13:15:37.937: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 13:15:37.937: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 13:15:37.939: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 13:15:37.943: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 13:15:37.944: [nssf] INFO: [76992cb0-5b08-41ef-a7f9-293349f4df38] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/15 13:17:20.950: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/15 13:19:57.566: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/15 13:19:57.566: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/15 13:19:57.570: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/15 13:19:57.578: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/15 13:19:57.612: [nssf] INFO: [115964c2-5b09-41ef-b9c2-eb8ad348a435] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 09:14:25.889: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 09:14:25.893: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 09:14:25.926: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 09:14:25.950: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 09:14:25.990: [nssf] INFO: [ef0387ac-5baf-41ef-9ee3-d5d6d914985d] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 09:31:46.848: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 09:31:46.848: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 09:31:46.851: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 09:31:46.859: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 09:31:46.869: [nssf] INFO: [5b755904-5bb2-41ef-8542-cd5afca4343d] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 09:32:16.432: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 09:32:16.432: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 09:32:16.435: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 09:32:16.438: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 09:32:16.444: [nssf] INFO: [6d17c8f4-5bb2-41ef-ac78-ff2efaf36f84] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 09:34:13.667: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 09:34:13.668: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 09:34:13.669: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 09:34:13.670: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 09:34:13.689: [nssf] INFO: [b2f8376e-5bb2-41ef-9127-5766d1d90a76] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 11:32:06.936: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 11:32:06.936: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 11:32:06.940: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 11:32:06.963: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 11:32:07.025: [nssf] INFO: [2af798e4-5bc3-41ef-92d6-c50ac86a9e61] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 11:37:07.221: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 11:37:07.223: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 11:37:07.237: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 11:37:07.276: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 11:37:07.366: [nssf] INFO: [ddf506f2-5bc3-41ef-8b3d-b393bfc61721] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/16 11:39:10.325: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/16 11:43:49.009: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 11:43:49.026: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 11:43:49.041: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 11:43:49.046: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 11:43:49.050: [nssf] INFO: [cd73dd02-5bc4-41ef-8e67-27944675c5cc] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 11:45:16.963: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 11:45:16.964: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 11:45:16.965: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 11:45:16.974: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 11:45:17.002: [nssf] INFO: [01dbf44e-5bc5-41ef-9195-c9bf9b388a3d] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 11:46:51.883: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 11:46:51.885: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 11:46:51.892: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 11:46:51.901: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 11:46:51.953: [nssf] INFO: [3a705c3c-5bc5-41ef-84a5-7590d09f7065] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 11:49:10.727: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 11:49:10.727: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 11:49:10.729: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 11:49:10.734: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 11:49:10.738: [nssf] INFO: [8d317b18-5bc5-41ef-ba47-0d62a5b486ed] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 11:52:33.842: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 11:52:33.842: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 11:52:33.844: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 11:52:33.847: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 11:52:33.856: [nssf] INFO: [06426918-5bc6-41ef-bffc-dd77b0194502] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:06:07.457: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:06:07.457: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:06:07.462: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:06:07.489: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:06:07.546: [nssf] INFO: [eb369160-5bc7-41ef-955e-3b2f5a9fae02] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:10:15.139: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:10:15.139: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:10:15.143: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:10:15.146: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:10:15.155: [nssf] INFO: [7ed7ac1a-5bc8-41ef-95a4-5d6f6417bf52] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:11:03.593: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:11:03.595: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:11:03.604: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:11:03.621: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:11:03.626: [nssf] INFO: [9bb9d6fa-5bc8-41ef-a0f0-45d02271a3f3] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:13:53.462: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:13:53.466: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:13:53.476: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:13:53.482: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:13:53.504: [nssf] INFO: [00fa64a8-5bc9-41ef-80a9-ab5a0c81d924] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:22:54.267: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:22:54.267: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:22:54.272: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:22:54.277: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:22:54.284: [nssf] INFO: [435158ce-5bca-41ef-9637-d3f3445e1536] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:25:38.476: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:25:38.481: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:25:38.494: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:25:38.553: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:25:38.561: [nssf] INFO: [a532f246-5bca-41ef-aed5-9d05923e0e77] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:28:11.717: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:28:11.719: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:28:11.721: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:28:11.736: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:28:11.755: [nssf] INFO: [008878aa-5bcb-41ef-8795-c16d8bb1a2b1] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:30:26.660: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:30:26.661: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:30:26.696: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:30:26.707: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:30:26.724: [nssf] INFO: [50f6df20-5bcb-41ef-b170-25b8abf546ac] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:35:04.566: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:35:04.579: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:35:04.587: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:35:04.590: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:35:04.601: [nssf] INFO: [f69e99a4-5bcb-41ef-9c28-83d7fb7aa78b] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:40:46.067: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:40:46.068: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:40:46.079: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:40:46.095: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:40:46.107: [nssf] INFO: [c229204e-5bcc-41ef-bc30-1b9fef5dbfd9] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:41:53.959: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:41:53.960: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:41:53.962: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:41:53.967: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:41:53.994: [nssf] INFO: [eaa087ec-5bcc-41ef-a1b1-a1af2519a792] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:42:57.125: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:42:57.125: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:42:57.127: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:42:57.160: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:42:57.162: [nssf] INFO: [1046d906-5bcd-41ef-a3ad-9bf04b7c7e9e] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 12:46:18.696: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 12:46:18.697: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 12:46:18.699: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 12:46:18.716: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 12:46:18.757: [nssf] INFO: [886c4498-5bcd-41ef-9dfa-41bf9762463e] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/16 13:01:08.968: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/16 13:01:08.971: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/16 13:01:08.991: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/16 13:01:08.993: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/16 13:01:09.005: [nssf] INFO: [9b14075a-5bcf-41ef-ba95-b104f605c2c1] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 08:25:17.161: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 08:25:17.162: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 08:25:17.164: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 08:25:17.170: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 08:25:17.173: [nssf] INFO: [663f1732-5d3b-41ef-839c-8dc1a7df4eef] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/18 08:26:28.429: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/18 08:26:52.615: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 08:26:52.615: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 08:26:52.617: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 08:26:52.631: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 08:26:52.642: [nssf] INFO: [9f241778-5d3b-41ef-b988-495f8d0c290c] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 08:28:10.703: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 08:28:10.703: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 08:28:10.720: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 08:28:10.728: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 08:28:10.743: [nssf] INFO: [cdb19412-5d3b-41ef-8f0d-e9a1cb944638] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 08:45:48.344: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 08:45:48.345: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 08:45:48.391: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 08:45:48.434: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 08:45:48.438: [nssf] INFO: [441d7d12-5d3e-41ef-865a-ad3d4f2376cf] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 08:46:34.429: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 08:46:34.444: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 08:46:34.449: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 08:46:34.470: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 08:46:34.479: [nssf] INFO: [5f914042-5d3e-41ef-a375-3bc3f2540d3b] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 08:50:44.241: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 08:50:44.242: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 08:50:44.245: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 08:50:44.263: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 08:50:44.268: [nssf] INFO: [f4750842-5d3e-41ef-b8fc-6b1abf9d0721] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 08:55:18.233: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 08:55:18.234: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 08:55:18.238: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 08:55:18.266: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 08:55:18.309: [nssf] INFO: [97c5388c-5d3f-41ef-85fa-395c77cda14f] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 08:58:06.137: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 08:58:06.139: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 08:58:06.140: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 08:58:06.142: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 08:58:06.155: [nssf] INFO: [fbd91190-5d3f-41ef-b135-3d23c9f8d357] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:13:58.199: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:13:58.201: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:13:58.245: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:13:58.268: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:13:58.315: [nssf] INFO: [1c2e0802-5d6c-41ef-85ed-c995da6e9fc5] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:15:43.681: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:15:43.683: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:15:43.687: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:15:43.700: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:15:43.730: [nssf] INFO: [5b07cf54-5d6c-41ef-881f-379f4a67aa3d] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:17:09.744: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:17:09.760: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:17:09.765: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:17:09.778: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:17:09.800: [nssf] INFO: [8e563058-5d6c-41ef-bbc3-918e8191d97e] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:24:36.989: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:24:36.991: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:24:36.996: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:24:37.025: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:24:37.068: [nssf] INFO: [98e87160-5d6d-41ef-a5d0-1bef23335952] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:27:20.019: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:27:20.021: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:27:20.029: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:27:20.037: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:27:20.048: [nssf] INFO: [fa150a20-5d6d-41ef-b013-e35afaadc3b7] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:29:01.021: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:29:01.024: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:29:01.038: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:29:01.072: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:29:01.116: [nssf] INFO: [3648711c-5d6e-41ef-a2d2-757a9b253000] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/18 14:36:59.848: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/18 14:37:19.090: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:37:19.092: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:37:19.101: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:37:19.105: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:37:19.146: [nssf] INFO: [5f284746-5d6f-41ef-bf80-17445d8b93c1] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:40:22.989: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:40:22.990: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:40:22.995: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:40:23.013: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:40:23.077: [nssf] INFO: [ccc44ee4-5d6f-41ef-bcef-99d1a0fea58a] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:41:38.678: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:41:38.681: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:41:38.687: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:41:38.691: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:41:38.712: [nssf] INFO: [f9e20916-5d6f-41ef-9a3a-7f1420f62de0] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/18 14:46:19.827: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/18 14:46:19.831: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/18 14:46:19.841: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/18 14:46:19.865: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/18 14:46:19.892: [nssf] INFO: [a17645e8-5d70-41ef-b457-a542d2e18678] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 11:56:54.005: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 11:56:54.005: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 11:56:54.014: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 11:56:54.035: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 11:56:54.040: [nssf] INFO: [209247da-5e22-41ef-86ba-150321270318] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 11:58:24.294: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 11:58:24.295: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 11:58:24.304: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 11:58:24.323: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 11:58:24.349: [nssf] INFO: [56626746-5e22-41ef-b256-edf259d0c557] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 12:01:34.606: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 12:01:34.606: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 12:01:34.609: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 12:01:34.632: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 12:01:34.638: [nssf] INFO: [c7d1d312-5e22-41ef-a3a7-8bdb78d47dd2] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 12:06:32.004: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 12:06:32.004: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 12:06:32.015: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 12:06:32.020: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 12:06:32.147: [nssf] INFO: [791504dc-5e23-41ef-9817-fd26207ed72a] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 12:08:52.143: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 12:08:52.143: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 12:08:52.144: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 12:08:52.172: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 12:08:52.245: [nssf] INFO: [cc9c6bd6-5e23-41ef-b3a3-95f64941ce6b] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/19 12:27:33.558: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/19 12:34:09.869: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 12:34:09.869: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 12:34:09.877: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 12:34:09.893: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 12:34:09.906: [nssf] INFO: [553f7a3e-5e27-41ef-b18d-9dc02d0a7bcc] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/19 12:35:59.958: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/19 12:36:12.453: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 12:36:12.455: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 12:36:12.468: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 12:36:12.483: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 12:36:12.504: [nssf] INFO: [9e520a02-5e27-41ef-9098-eb1ccb175a02] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/19 12:36:57.999: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/19 12:39:36.458: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 12:39:36.461: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 12:39:36.464: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 12:39:36.481: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 12:39:36.489: [nssf] INFO: [17e9479a-5e28-41ef-b590-eba5020790e7] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 12:48:33.576: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 12:48:33.577: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 12:48:33.582: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 12:48:33.611: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 12:48:33.632: [nssf] INFO: [580e9a86-5e29-41ef-943e-d79de81d491b] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 12:56:28.917: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 12:56:28.920: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 12:56:28.925: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 12:56:28.930: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 12:56:28.940: [nssf] INFO: [73629926-5e2a-41ef-93bb-b115cd9e5b70] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 13:00:08.189: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:00:08.190: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:00:08.192: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:00:08.193: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:00:08.197: [nssf] INFO: [f614111a-5e2a-41ef-bdc3-61a9c282437d] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 13:05:47.211: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:05:47.212: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:05:47.218: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:05:47.241: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:05:47.247: [nssf] INFO: [c02727d0-5e2b-41ef-8ad1-73df143a9382] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 13:09:26.053: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:09:26.054: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:09:26.057: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:09:26.141: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:09:26.180: [nssf] INFO: [429780b6-5e2c-41ef-b36d-a5a0c5732dc8] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/19 13:10:02.396: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/19 13:10:15.724: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:10:15.725: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:10:15.726: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:10:15.750: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:10:15.752: [nssf] INFO: [6032628a-5e2c-41ef-b291-375832c4b250] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 13:17:56.923: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:17:56.924: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:17:56.939: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:17:56.969: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:17:56.992: [nssf] INFO: [7319fb28-5e2d-41ef-b11a-0bbdaf0a2c7a] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 13:18:40.017: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:18:40.018: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:18:40.020: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:18:40.059: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:18:40.066: [nssf] INFO: [8cc79d50-5e2d-41ef-813b-0d31084f0bce] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 13:20:59.845: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:20:59.846: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:20:59.854: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:20:59.884: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:20:59.885: [nssf] INFO: [e01fc5b8-5e2d-41ef-b94d-59fed94010f2] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/19 13:30:25.063: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+08/19 13:33:20.883: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:33:20.884: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:33:20.890: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:33:20.914: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:33:20.934: [nssf] INFO: [99d15552-5e2f-41ef-b588-e71722443b0b] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 13:45:10.592: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:45:10.592: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:45:10.596: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:45:10.610: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:45:10.616: [nssf] INFO: [40d62ae8-5e31-41ef-b6c7-895ba27bcee0] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 13:46:31.640: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 13:46:31.641: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 13:46:31.663: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 13:46:31.684: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 13:46:31.686: [nssf] INFO: [7124d8ca-5e31-41ef-ade2-0f155e3273a7] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 14:21:49.800: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:21:49.820: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:21:49.856: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:21:49.880: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 14:21:49.925: [nssf] INFO: [5fb052ea-5e36-41ef-bc4f-cbc36b37bb15] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 14:24:37.700: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:24:37.700: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:24:37.703: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:24:37.715: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 14:24:37.730: [nssf] INFO: [c3be0bce-5e36-41ef-be36-8159eea4f62f] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 14:27:11.937: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:27:11.937: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:27:11.938: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:27:11.951: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 14:27:11.966: [nssf] INFO: [1fac7ff6-5e37-41ef-8b7b-31e73c8701a4] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 14:32:41.915: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:32:41.915: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:32:41.955: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:32:41.965: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 14:32:41.968: [nssf] INFO: [e460792e-5e37-41ef-a213-ddcebecac8dc] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 14:36:25.636: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:36:25.636: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:36:25.694: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:36:25.715: [nssf] INFO: [69b81988-5e38-41ef-b400-cf02f24bedb7] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+08/19 14:36:25.726: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+Open5GS daemon v2.4.4
+
+08/19 14:38:36.584: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:38:36.585: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:38:36.601: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:38:36.618: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 14:38:36.631: [nssf] INFO: [b7c3bd08-5e38-41ef-a65f-db7c89c68450] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 14:53:50.466: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:53:50.467: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:53:50.469: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:53:50.482: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 14:53:50.491: [nssf] INFO: [d878d73e-5e3a-41ef-8d47-997aa460b498] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 14:56:59.427: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:56:59.427: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:56:59.429: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:56:59.447: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 14:56:59.477: [nssf] INFO: [4919df60-5e3b-41ef-ac40-4df5c7087035] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+08/19 14:59:27.074: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nssf.yaml' (../lib/app/ogs-init.c:129)
+08/19 14:59:27.074: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nssf.log' (../lib/app/ogs-init.c:132)
+08/19 14:59:27.080: [sbi] INFO: nghttp2_server() [127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:144)
+08/19 14:59:27.081: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/19 14:59:27.090: [nssf] INFO: [a11bad6a-5e3b-41ef-8402-bb7554868c1b] NF registred [Heartbeat:10s] (../src/nssf/nf-sm.c:198)
