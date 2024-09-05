@@ -171,7 +171,7 @@ Depending on the configuration that you are running there are 2 ways:
 * Running inside a remote vm:
   Go to the browser and access
   ```
-  http://192.168.1.219:9999/
+  http://<VM_IP>:9999/
   ```
 * Running on the host:
   ```
