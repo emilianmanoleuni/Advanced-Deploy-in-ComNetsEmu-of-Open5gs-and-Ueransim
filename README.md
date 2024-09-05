@@ -2,7 +2,7 @@
 The project consist of deploying a 5G network using Open5gs and Ueransim inside ComNetsEmu, where each component is a docker, talking to the others using a network with links that have bandwidth and delay. The challenge is to use only a custom network without the help of the predefined docker network, this means that each component will have a custom interface with a new IP.
 
 ## Network Topology
-
+![https://github.com/emilianmanoleuni/Advanced-Deploy-in-ComNetsEmu-of-Open5gs-and-Ueransim/blob/main/images/networkTopology.png]
 
 
 ## Tools
