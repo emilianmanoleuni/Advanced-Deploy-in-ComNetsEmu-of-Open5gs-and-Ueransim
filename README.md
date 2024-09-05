@@ -1,6 +1,10 @@
 # Advanced-Deploy-in-ComNetsEmu-of-Open5gs-and-Ueransim
 The project consist of deploying a 5G network using Open5gs and Ueransim inside ComNetsEmu, where each component is a docker, talking to the others using a network with links that have bandwidth and delay. The challenge is to use only a custom network without the help of the predefined docker network, this means that each component will have a custom interface with a new IP.
 
+## Network Topology
+
+
+
 ## Tools
 * Open5gs v2.7.1 Docker by Gradiant
 * Open5gs-WebUI v2.7.1 Docker by Gradiant
@@ -99,21 +103,21 @@ cd ..
 The containers IPs:
 | Container | IP |
 | --- | --- |
-| MONGO | 192.168.0.2 |
-| AMF | 192.168.0.3 |
-| AUSF | 192.168.0.4 |
-| BSF | 192.168.0.5 |
-| NRF | 192.168.0.6 |
-| NSSF | 192.168.0.7 |
-| PCF | 192.168.0.8 |
-| SCP | 192.168.0.9 |
-| SMF | 192.168.0.10 |
-| UDM | 192.168.0.11 |
-| UDR | 192.168.0.12 |
-| UPD | 192.168.0.13 |
-| WEBUI | 192.168.0.14 |
-| GNB | 192.168.0.20 |
-| UE | 192.168.0.30 |
+| MONGO | 10.0.0.2 |
+| AMF | 10.0.0.3 |
+| AUSF | 10.0.0.4 |
+| BSF | 10.0.0.5 |
+| NRF | 10.0.0.6 |
+| NSSF | 10.0.0.7 |
+| PCF | 10.0.0.8 |
+| SCP | 10.0.0.9 |
+| SMF | 10.0.0.10 |
+| UDM | 10.0.0.11 |
+| UDR | 10.0.0.12 |
+| UPF | 10.0.0.13 |
+| WEBUI | 10.0.0.14 |
+| GNB | 10.0.0.20 |
+| UE | 10.0.0.21 |
 > uesimtun IPs interfaces are above
 
 To start the project:
@@ -244,6 +248,7 @@ To check if uesimtun were created
   iperf3 -c 10.45.0.1 -B 10.45.0.5 -t 5
   iperf3 -c 10.45.0.1 -B 10.45.0.6 -t 5
   ```
+  The interface is assigned "first-served" imsi, infact the script registering them modify the speed based on imsi and doesn't follow uesintun numeration.
   | Interface | IP | Downlink | Uplink |
   | --- | --- | --- | --- |
   | uesimtun0 | 10.45.0.2 | 1 Mbits | 1 Mbits |
@@ -251,12 +256,13 @@ To check if uesimtun were created
   | uesimtun2 | 10.45.0.4 | 10 Mbits | 10 Mbits |
   | uesimtun3 | 10.45.0.5 | 10 Mbits | 10 Mbits |
   | uesimtun4 | 10.45.0.6 | 3 Mbits | 3 Mbits |
-
-  The interface is assigned "first-served" imsi, infact the script registering them modify the speed based on imsi and doesn't follow uesintun numeration.
+  > In my case
+  
+  This script is using open5gs-dbctl tool which allow easily to register and modify the subscribers to mongodb. As the WebUI the modification aren't applied until restart of the amf container.
   ```
   /mongo/config/register_subscriber.sh
   ```
-  This script is using open5gs-dbctl tool which allow easily to register and modify the subscribers to mongodb. As the WebUI the modification aren't applied until restart of the amf container.
+  
 
 ## How to increase UE-s
 There are 2 steps:
