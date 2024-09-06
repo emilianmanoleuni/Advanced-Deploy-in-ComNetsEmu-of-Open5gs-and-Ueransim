@@ -344,6 +344,16 @@ Go inside folder statuses
    ```
    cat <component_name>_status.txt
    ```
+## Close
+In mininet console
+   ```
+   exit
+   ```
+To clean if necessary
+   ```
+   ./clean.sh
+   ```
+
 ## FAQ
 * Docker "permission denied"
   If you have problems with docker pulling and running images because and error like "permission denied" there is a script that may help:
