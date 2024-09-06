@@ -353,7 +353,10 @@ To clean if necessary
    ```
    ./clean.sh
    ```
-
+To close vagrant 
+   ```
+   vagrant halt comnetsemu
+   ```
 ## FAQ
 * Docker "permission denied"
   If you have problems with docker pulling and running images because and error like "permission denied" there is a script that may help:
