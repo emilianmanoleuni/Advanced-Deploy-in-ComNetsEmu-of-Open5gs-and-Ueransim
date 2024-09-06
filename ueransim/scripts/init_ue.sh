@@ -2,7 +2,7 @@ echo "----------------------------"
 echo "Initializing $COMPONENT_NAME"
 echo "----------------------------"
 
-STATUS_FILE_GNB="${STATUS_DIR_PATH}/ueransim_gnb_status.txt"
+STATUS_FILE_GNB="${STATUS_DIR_PATH}/gnb_status.txt"
 
 echo "starting" > $STATUS_FILE
 
