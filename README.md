@@ -98,6 +98,24 @@ cd ueransim
 cd ..
 cd ..
 ```
+## Check Permission scripts
+Be sure each script file has execute permission
+```
+chmod +x enter_container.sh
+chmod +x start_tcpdump.sh
+chmod +x clean.sh
+chmod +x build/dockerhub_pull.sh
+chmod +x build/mongo/build.sh
+chmod +x build/mongo/build.sh
+chmod +x build/open5gs_webui/build.sh
+chmod +x build/ueransim/build.sh
+chmod +x open5gs/config/open5gs_components_init.sh
+chmod +x mongo/config/mongo_init.sh
+chmod +x mongo/config/open5gs-dbctl
+chmod +x mongo/config/register_subscriber.sh
+chmod +x ueransim/scripts/init_gnb.sh
+chmod +x ueransim/scripts/init_ue.sh
+```
 
 ## Try the tool
 The containers IPs:
