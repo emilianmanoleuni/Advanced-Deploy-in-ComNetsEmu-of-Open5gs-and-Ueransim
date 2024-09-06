@@ -27,4 +27,4 @@ done
 
 sleep 10
 
-./entrypoint.sh ue -n 10
+./entrypoint.sh ue -n 5

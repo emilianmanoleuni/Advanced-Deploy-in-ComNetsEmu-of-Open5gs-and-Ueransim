@@ -28,4 +28,6 @@ sleep 30
 
 echo "avaible" > $STATUS_FILE
 
+sleep 2
+
 ./entrypoint.sh gnb

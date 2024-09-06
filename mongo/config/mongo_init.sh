@@ -5,7 +5,7 @@ echo "starting" > "$STATUS_FILE"
 echo "----------------------------"
 echo "INITIALIZING ${COMPONENT_NAME}"
 echo "----------------------------"
-echo "-->DB_URI: ${DB_URI}"
+#echo "-->DB_URI: ${DB_URI}"
 echo "----------------------------"
 echo "INSTALLING DEPENDENCIES"
 
@@ -16,4 +16,10 @@ echo "ready" > "$STATUS_FILE"
 echo "DONE"
 echo "----------------------------"
 
-mongod --logpath /opt/open5gs/var/log/mongodb.log --logRotate reopen --logappend --bind_ip_all
+exec mongod --logpath /opt/open5gs/var/log/mongodb.log --logRotate reopen --logappend --bind_ip_all &
+
+sleep 10
+
+./opt/mongo/register_subscriber.sh
+
+wait

@@ -18,12 +18,6 @@ OPEN5GS_WEBUI_IMAGE = "open5gs_webui_modified_image"
 
 UERANSIM_IMAGE = "ueransim_modified_image"
 
-#SRSRAN5G_IMAGE_UE = "builded/srsran5g-builded"
-#SRSRAN5G_IMAGE_GNB = "builded/srsran5g-builded"
-
-#SRSRAN5G_IMAGE_UE = "gradiant/srsran-5g:24_04"
-#SRSRAN5G_IMAGE_GNB = "gradiant/srsran-4g:23_11"
-
 MONGODB_IMAGE = "mongo_modified_image"
 
 AUTOTEST_MODE = os.environ.get("COMNETSEMU_AUTOTEST_MODE", 0)
@@ -37,10 +31,6 @@ VOLUMES = {
         "bind": "/opt/open5gs/var/log/",
         "mode": "rw",
     },
-#    prj_folder + "/mongo": {
-#        "bind": "/data/db/open5gs",
-#        "mode": "rw",
-#    },
     prj_folder + "/mongo/config": {
         "bind": "/opt/mongo/",
         "mode": "rw",
@@ -53,10 +43,6 @@ VOLUMES = {
         "bind": "/opt/statuses",
         "mode": "rw",
     },
-#    prj_folder + "/config": {
-#        "bind": "/opt/open5gs/etc/open5gs/yaml",
-#        "mode": "rw",
-#    },
     prj_folder + "/ueransim/scripts": {
         "bind": "/opt/ueransim",
         "mode": "rw",
@@ -91,7 +77,10 @@ env_vars = {
 }
 
 DELAY_CORE_NETWORK = "1ms"
-BW_CORE_NETWORK = 1000
+BW_CORE_NETWORK = 500
+
+DELAY_EDGE_NETWORK = "5ms"
+BW_EDGE_NETWORK = 750
 
 ########################################################################
 #                                                                      #
@@ -101,7 +90,7 @@ BW_CORE_NETWORK = 1000
 
 def addComponent(net, name, ip_value, switch):
 
-    info(f"--> Adding {name} IP: {ip_value}\n")
+    info(f"\n--> Adding {name} IP: {ip_value}\n")
 
     #Define interface name instead of eth0
     intfName = f"{name}-{switch.name}"
@@ -127,7 +116,6 @@ def addComponent(net, name, ip_value, switch):
     if name == "mongo":
         #DB name
         init_db_env = component_env
-        #init_db_env.pop("DB_URI")
         init_db_env.update({
             "MONGO_INITDB_DATABASE": "open5gs"
         })
@@ -147,10 +135,12 @@ def addComponent(net, name, ip_value, switch):
 
         waitToBeReady(name)
 
+        createLink(net, ip_value, component, switch, BW_CORE_NETWORK, DELAY_CORE_NETWORK)
+
 
     #################### UERANSIM ####################
 
-    elif name == "ueransim_gnb":
+    elif name == "gnb":
         init_gnb_env = component_env
         init_gnb_env.update({
 #            "AMF_HOSTNAME": os.getenv("AMF_IP"),
@@ -174,7 +164,6 @@ def addComponent(net, name, ip_value, switch):
             name,
             dimage=UERANSIM_IMAGE,
             ip=ip_value,
-#            dcmd="gnb",
             dcmd="bash /opt/ueransim/init_gnb.sh",
             docker_args={
                 "environment": component_env,
@@ -184,8 +173,10 @@ def addComponent(net, name, ip_value, switch):
 
         waitToBeReady(name)
 
+        createLink(net, ip_value, component, switch, BW_EDGE_NETWORK, DELAY_EDGE_NETWORK)
 
-    elif name == "ueransim_ue":
+
+    elif name == "ue":
         init_ue_env = component_env
         init_ue_env.update({
             "GNB_HOSTNAME": os.getenv("GNB_IP"),
@@ -216,6 +207,8 @@ def addComponent(net, name, ip_value, switch):
 
         waitToBeReady(name)
 
+        createLink(net, ip_value, component, switch, BW_EDGE_NETWORK, DELAY_EDGE_NETWORK)
+
 
     #################### OPEN5GS ####################
 
@@ -234,6 +227,8 @@ def addComponent(net, name, ip_value, switch):
             },
         )
 
+        createLink(net, ip_value, component, switch, BW_CORE_NETWORK, DELAY_CORE_NETWORK)
+
     elif name == "upf":
         component = net.addDockerHost(
             name,
@@ -248,6 +243,8 @@ def addComponent(net, name, ip_value, switch):
                 "volumes": VOLUMES,
             },
         )
+
+        createLink(net, ip_value, component, switch, BW_CORE_NETWORK, DELAY_CORE_NETWORK)
 
     elif name == "webui":
         init_webui_env = {
@@ -269,6 +266,8 @@ def addComponent(net, name, ip_value, switch):
             },
         )
 
+        createLink(net, ip_value, component, switch, BW_CORE_NETWORK, DELAY_CORE_NETWORK)
+
     else:
         component = net.addDockerHost(
             name,
@@ -281,7 +280,7 @@ def addComponent(net, name, ip_value, switch):
             },
         )
 
-    createLink(net, ip_value, component, switch, BW_CORE_NETWORK, DELAY_CORE_NETWORK)
+        createLink(net, ip_value, component, switch, BW_CORE_NETWORK, DELAY_CORE_NETWORK)
 
     return component
 
@@ -314,6 +313,14 @@ def waitToBeReady(componentName):
             print(f"Status file {componentName} not found.")
 
 def setNetworkStatus(status):
+    if status == "starting":
+        print(f"-------------------------------------------------------------")
+        print(f"|                                                           |")
+        print(f"|   Advanced-Deploy-in-ComNetsEmu-of-Open5gs-and-Ueransim   |")
+        print(f"|                         v 1.0                             |")
+        print(f"|                                                           |")
+        print(f"-------------------------------------------------------------")
+
     try:
         with open(prj_folder + "/statuses/network_status.txt", 'w') as file:
             file.write(status + "\n")

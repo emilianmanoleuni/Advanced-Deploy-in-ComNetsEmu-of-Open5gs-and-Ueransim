@@ -36,3 +36,10 @@ sudo ip link delete s1-scp
 sudo ip link delete s1-smf
 sudo ip link delete s1-udm
 sudo ip link delete s1-udr
+
+sudo ip link delete s1-r1
+sudo ip link delete s2-r2
+sudo ip link delete r1-r2
+
+sudo ip link delete s1-mongo
+sudo ip link delete s1-webui
