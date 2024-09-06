@@ -263,6 +263,39 @@ To check if uesimtun were created
   /mongo/config/register_subscriber.sh
   ```
   
+  To check the network flow in mininet console find the components you are interested in:
+    
+    mininet> net
+    mongo mongo-s1:s1-mongo
+    amf amf-s1:s1-amf
+    ausf ausf-s1:s1-ausf
+    bsf bsf-s1:s1-bsf
+    nrf nrf-s1:s1-nrf
+    nssf nssf-s1:s1-nssf
+    pcf pcf-s1:s1-pcf
+    scp scp-s1:s1-scp
+    smf smf-s1:s1-smf
+    udm udm-s1:s1-udm
+    udr udr-s1:s1-udr
+    upf upf-s1:s1-upf
+    webui webui-s1:s1-webui
+    gnb gnb-s1:s1-gnb
+    ue ue-s1:s1-ue
+    s1 lo:  s1-mongo:mongo-s1 s1-amf:amf-s1 s1-ausf:ausf-s1 s1-bsf:bsf-s1 s1-nrf:nrf-s1 s1-nssf:nssf-s1 s1-pcf:pcf-s1 s1-scp:scp-s1 s1-smf:smf-s1 s1-udm:udm-s1 s1-    udr:udr-s1 s1-upf:upf-s1 s1-webui:webui-s1 s1-gnb:gnb-s1 s1-ue:ue-s1
+    c0
+
+    mininet><components_name> tcpdump
+    mininet>ue tcpdump
+
+  To check the network flow of uesimtun devices using the script:
+  ```
+  ./start_tcpdump.sh ue <uesimtun_device>
+  ./start_tcpdump.sh ue uesimtun0
+  ```
+  Now start a bandwidth test from inside the ue:
+   ```
+  iperf3 -c 10.45.0.1 -B 10.45.0.2 -t 5
+  ```
 
 ## How to increase UE-s
 There are 2 steps:
@@ -286,6 +319,12 @@ Now you need to create the profile for the new subscriptions
   To modify the Session-AMBR Downlink and Session-AMBR Uplink
    ```
    ./opt/mongo/open5gs-dbctl ambr_speed <imsi> <downlink> <[0=bps 1=Kbps 2=Mbps 3=Gbps 4=Tbps ]> <uplink> <[0=bps 1=Kbps 2=Mbps 3=Gbps 4=Tbps ]>
+   ```
+
+## How to check components status
+Go inside folder statuses
+   ```
+   cat <component_name>_status.txt
    ```
 ## FAQ
 * Docker "permission denied"
